@@ -61,7 +61,7 @@ const HeroSection = () => {
           </motion.h2>
           <motion.p
             variants={itemVariants}
-            className="text-[22px] text-white font-medium leading-[130%] text-white"
+            className="text-[22px] font-medium leading-[130%] text-white"
           >
             At ONORI-B Enterprise, we are dedicated to empowering businesses of
             all sizes with comprehensive financial and business solutions. Our
