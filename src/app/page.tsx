@@ -1,4 +1,5 @@
 import AboutSection from "@/components/sections/about-section";
+import CtaBannerSection from "@/components/sections/cta-banner-section";
 import HeroSection from "@/components/sections/hero-section";
 import ServiceSection from "@/components/sections/service-section";
 import TestimonialSection from "@/components/sections/testimonial-section";
@@ -13,6 +14,7 @@ const page = () => {
       <AboutSection />
       <VissionMissionSection />
       <TestimonialSection />
+      <CtaBannerSection />
     </div>
   );
 };
