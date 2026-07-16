@@ -33,7 +33,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="bg-white relative">
-      <WrapperMain className="flex items-center justify-between py-3 ">
+      <WrapperMain className="flex items-center justify-between py-2 md:py-3">
         <Logo />
         <MenuHeader className="hidden md:flex" />
         <Button className="hidden md:block">Get Started</Button>
